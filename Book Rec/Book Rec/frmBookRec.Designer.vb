@@ -37,6 +37,7 @@ Partial Class frmBookRec
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Book3 = New System.Windows.Forms.PictureBox()
         Me.lblScore = New System.Windows.Forms.Label()
+        Me.cmdMethC = New System.Windows.Forms.Button()
         CType(Me.Book1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Book2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Book3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -193,12 +194,24 @@ Partial Class frmBookRec
         Me.lblScore.Size = New System.Drawing.Size(0, 20)
         Me.lblScore.TabIndex = 16
         '
+        'cmdMethC
+        '
+        Me.cmdMethC.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.cmdMethC.ForeColor = System.Drawing.Color.OrangeRed
+        Me.cmdMethC.Location = New System.Drawing.Point(16, 619)
+        Me.cmdMethC.Name = "cmdMethC"
+        Me.cmdMethC.Size = New System.Drawing.Size(122, 76)
+        Me.cmdMethC.TabIndex = 17
+        Me.cmdMethC.Text = "Method C"
+        Me.cmdMethC.UseVisualStyleBackColor = False
+        '
         'frmBookRec
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 18.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(1256, 722)
+        Me.Controls.Add(Me.cmdMethC)
         Me.Controls.Add(Me.lblScore)
         Me.Controls.Add(Me.Book3)
         Me.Controls.Add(Me.Label4)
@@ -242,4 +255,5 @@ Partial Class frmBookRec
     Friend WithEvents Label4 As Label
     Friend WithEvents Book3 As PictureBox
     Friend WithEvents lblScore As Label
+    Friend WithEvents cmdMethC As Button
 End Class

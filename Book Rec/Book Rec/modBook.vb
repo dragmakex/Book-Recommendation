@@ -225,5 +225,9 @@
                 frmBookRec.Book3.Image = Nothing
             End If
         End Sub
+
+        Sub C()
+
+        End Sub
     End Structure
 End Module

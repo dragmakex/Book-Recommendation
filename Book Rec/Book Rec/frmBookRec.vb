@@ -33,4 +33,8 @@
     Private Sub cmdMethB_Click(sender As Object, e As EventArgs) Handles cmdMethB.Click
         Method.B()
     End Sub
+
+    Private Sub cmdMethC_Click(sender As Object, e As EventArgs) Handles cmdMethC.Click
+        Method.C()
+    End Sub
 End Class
