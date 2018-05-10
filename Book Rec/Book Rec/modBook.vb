@@ -227,6 +227,42 @@
         End Sub
 
         Sub C()
+            Dim Index As Integer
+            Dim SV As Integer
+            Dim arrSV(85) As Integer
+            Dim High As Integer
+            Dim Pos As Integer
+            Dim Numpic As Integer
+            Dim BookPic(3) As String
+            Dim arrPop(85) As Integer
+
+            For J = 0 To 85
+                For I = 0 To 54
+                    If J <> Index Then
+                        SV = SV + RL.Readers(Index).Ratings(I) * RL.Readers(J).Ratings(I)
+                    Else
+                        SV = 0
+                    End If
+                Next I
+                SV = 0
+            Next J
+
+
+            frmBookRec.lstRecPerson.Items.Clear()
+
+            For I = 0 To 54
+                arrPop(I) = 0
+                For J = 0 To 85
+                    arrPop(I) += modBook.RL.Readers(J).Ratings(I) * arrSV(J)
+
+                Next
+            Next
+
+            For I = 0 To 54
+                If modBook.RL.Readers(frmBookRec.lstReaders.SelectedIndex).Ratings(I) = 0 And arrPop(I) > 2000 Then
+                    frmBookRec.lstRecPerson.Items.Add(modBook.BL.Books(I).Name & " " & modBook.BL.Books(I).Author)
+                End If
+            Next
 
         End Sub
     End Structure
