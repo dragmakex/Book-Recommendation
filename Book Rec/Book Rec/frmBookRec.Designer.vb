@@ -47,20 +47,20 @@ Partial Class frmBookRec
         '
         Me.lstReaders.FormattingEnabled = True
         Me.lstReaders.ItemHeight = 18
-        Me.lstReaders.Location = New System.Drawing.Point(16, 38)
+        Me.lstReaders.Location = New System.Drawing.Point(16, 43)
         Me.lstReaders.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.lstReaders.Name = "lstReaders"
-        Me.lstReaders.Size = New System.Drawing.Size(978, 130)
+        Me.lstReaders.Size = New System.Drawing.Size(1095, 130)
         Me.lstReaders.TabIndex = 0
         '
         'lstBooks
         '
         Me.lstBooks.FormattingEnabled = True
         Me.lstBooks.ItemHeight = 18
-        Me.lstBooks.Location = New System.Drawing.Point(16, 189)
+        Me.lstBooks.Location = New System.Drawing.Point(16, 194)
         Me.lstBooks.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.lstBooks.Name = "lstBooks"
-        Me.lstBooks.Size = New System.Drawing.Size(978, 130)
+        Me.lstBooks.Size = New System.Drawing.Size(504, 130)
         Me.lstBooks.TabIndex = 2
         '
         'cmdMethA
@@ -69,7 +69,7 @@ Partial Class frmBookRec
         Me.cmdMethA.Location = New System.Drawing.Point(16, 430)
         Me.cmdMethA.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.cmdMethA.Name = "cmdMethA"
-        Me.cmdMethA.Size = New System.Drawing.Size(122, 77)
+        Me.cmdMethA.Size = New System.Drawing.Size(201, 77)
         Me.cmdMethA.TabIndex = 4
         Me.cmdMethA.Text = "Method A"
         Me.cmdMethA.UseVisualStyleBackColor = False
@@ -78,7 +78,7 @@ Partial Class frmBookRec
         '
         Me.lstRecPerson.FormattingEnabled = True
         Me.lstRecPerson.ItemHeight = 18
-        Me.lstRecPerson.Location = New System.Drawing.Point(1002, 27)
+        Me.lstRecPerson.Location = New System.Drawing.Point(317, 421)
         Me.lstRecPerson.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.lstRecPerson.Name = "lstRecPerson"
         Me.lstRecPerson.Size = New System.Drawing.Size(178, 274)
@@ -100,14 +100,14 @@ Partial Class frmBookRec
         Me.cmdMethB.Location = New System.Drawing.Point(16, 523)
         Me.cmdMethB.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.cmdMethB.Name = "cmdMethB"
-        Me.cmdMethB.Size = New System.Drawing.Size(122, 83)
+        Me.cmdMethB.Size = New System.Drawing.Size(201, 83)
         Me.cmdMethB.TabIndex = 7
         Me.cmdMethB.Text = "Method B"
         Me.cmdMethB.UseVisualStyleBackColor = False
         '
         'Book1
         '
-        Me.Book1.Location = New System.Drawing.Point(446, 351)
+        Me.Book1.Location = New System.Drawing.Point(503, 390)
         Me.Book1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Book1.Name = "Book1"
         Me.Book1.Size = New System.Drawing.Size(225, 305)
@@ -117,7 +117,7 @@ Partial Class frmBookRec
         '
         'Book2
         '
-        Me.Book2.Location = New System.Drawing.Point(694, 351)
+        Me.Book2.Location = New System.Drawing.Point(736, 390)
         Me.Book2.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Book2.Name = "Book2"
         Me.Book2.Size = New System.Drawing.Size(242, 305)
@@ -162,9 +162,9 @@ Partial Class frmBookRec
         Me.Label3.Location = New System.Drawing.Point(16, 20)
         Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(201, 20)
+        Me.Label3.Size = New System.Drawing.Size(170, 20)
         Me.Label3.TabIndex = 13
-        Me.Label3.Text = "All Readers and Ratings"
+        Me.Label3.Text = "Readers and Ratings"
         '
         'Label4
         '
@@ -172,13 +172,13 @@ Partial Class frmBookRec
         Me.Label4.Location = New System.Drawing.Point(16, 171)
         Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(88, 20)
+        Me.Label4.Size = New System.Drawing.Size(57, 20)
         Me.Label4.TabIndex = 14
-        Me.Label4.Text = "All Books"
+        Me.Label4.Text = "Books"
         '
         'Book3
         '
-        Me.Book3.Location = New System.Drawing.Point(966, 351)
+        Me.Book3.Location = New System.Drawing.Point(986, 390)
         Me.Book3.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Book3.Name = "Book3"
         Me.Book3.Size = New System.Drawing.Size(231, 305)
@@ -200,7 +200,7 @@ Partial Class frmBookRec
         Me.cmdMethC.ForeColor = System.Drawing.Color.OrangeRed
         Me.cmdMethC.Location = New System.Drawing.Point(16, 619)
         Me.cmdMethC.Name = "cmdMethC"
-        Me.cmdMethC.Size = New System.Drawing.Size(122, 76)
+        Me.cmdMethC.Size = New System.Drawing.Size(201, 76)
         Me.cmdMethC.TabIndex = 17
         Me.cmdMethC.Text = "Method C"
         Me.cmdMethC.UseVisualStyleBackColor = False

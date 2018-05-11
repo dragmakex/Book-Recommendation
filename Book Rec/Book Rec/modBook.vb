@@ -1,7 +1,7 @@
 ﻿Module modBook
     Public RL As ReaderList
     Public BL As BookList
-    Public Method As Meth
+    Public Method As ABC
     Public I As Integer
     Public J As Integer
     Public Path As String
@@ -95,7 +95,7 @@
         Dim Index As Integer
     End Structure
 
-    Structure Meth
+    Structure ABC
         Sub A()
             frmBookRec.lblScore.Text = ""
             Dim Index As Integer
@@ -227,31 +227,35 @@
         End Sub
 
         Sub C()
-            Dim Index As Integer
+
             Dim SV As Integer
             Dim arrSV(85) As Integer
-            Dim High As Integer
-            Dim Pos As Integer
-            Dim Numpic As Integer
             Dim BookPic(3) As String
             Dim arrPop(85) As Integer
+            Dim Index As Integer
 
             For J = 0 To 85
+
+                arrSV(J) = 0
+
                 For I = 0 To 54
-                    If J <> Index Then
-                        SV = SV + RL.Readers(Index).Ratings(I) * RL.Readers(J).Ratings(I)
-                    Else
-                        SV = 0
-                    End If
+                    'If J <> Index Then
+                    SV = SV + RL.Readers(Index).Ratings(I) * RL.Readers(J).Ratings(I)
+                    'Else
+                    'SV = 0
+                    arrSV(J) = SV
+                    'End If
                 Next I
                 SV = 0
             Next J
 
 
-            frmBookRec.lstRecPerson.Items.Clear()
+            'frmBookRec.lstRecPerson.Items.Clear()
 
             For I = 0 To 54
+
                 arrPop(I) = 0
+
                 For J = 0 To 85
                     arrPop(I) += modBook.RL.Readers(J).Ratings(I) * arrSV(J)
 
@@ -259,8 +263,8 @@
             Next
 
             For I = 0 To 54
-                If modBook.RL.Readers(frmBookRec.lstReaders.SelectedIndex).Ratings(I) = 0 And arrPop(I) > 2000 Then
-                    frmBookRec.lstRecPerson.Items.Add(modBook.BL.Books(I).Name & " " & modBook.BL.Books(I).Author)
+                If modBook.RL.Readers(frmBookRec.lstReaders.SelectedIndex - 1).Ratings(I) = 0 And arrPop(I) > 2000 Then
+                    frmBookRec.lstRecPerson.Items.Add(modBook.BL.Books(I).Name)
                 End If
             Next
 

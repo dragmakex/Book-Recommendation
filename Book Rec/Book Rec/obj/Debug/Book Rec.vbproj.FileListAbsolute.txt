@@ -20,18 +20,17 @@ F:\Locker\Files\Projects\CP II\VB.NET\Book Rec\Book Rec\obj\Debug\Book Rec.vbpro
 F:\Locker\Files\Projects\CP II\VB.NET\Book Rec\Book Rec\obj\Debug\WindowsApp1.frmBookRec.resources
 F:\Locker\Files\Projects\CP II\VB.NET\Book Rec\Book Rec\obj\Debug\WindowsApp1.Resources.resources
 F:\Locker\Files\Projects\CP II\VB.NET\Book Rec\Book Rec\obj\Debug\Book Rec.vbproj.GenerateResource.Cache
-F:\Locker\Files\Projects\CP II\VB.NET\Library\Book Rec\Book Rec\bin\Debug\Book Rec.exe.config
-F:\Locker\Files\Projects\CP II\VB.NET\Library\Book Rec\Book Rec\obj\Debug\Book Rec.exe
-F:\Locker\Files\Projects\CP II\VB.NET\Library\Book Rec\Book Rec\obj\Debug\Book Rec.xml
-F:\Locker\Files\Projects\CP II\VB.NET\Library\Book Rec\Book Rec\obj\Debug\Book Rec.pdb
 D:\Locker\Files\Projects\CP II\VB.NET\Library\Book Rec\Book Rec\bin\Debug\Book Rec.exe.config
 D:\Locker\Files\Projects\CP II\VB.NET\Library\Book Rec\Book Rec\obj\Debug\Book Rec.exe
 D:\Locker\Files\Projects\CP II\VB.NET\Library\Book Rec\Book Rec\obj\Debug\Book Rec.xml
 D:\Locker\Files\Projects\CP II\VB.NET\Library\Book Rec\Book Rec\obj\Debug\Book Rec.pdb
+F:\Locker\Files\Projects\CP II\VB.NET\Library\Book Rec\Book Rec\bin\Debug\Book Rec.exe.config
 F:\Locker\Files\Projects\CP II\VB.NET\Library\Book Rec\Book Rec\bin\Debug\Book Rec.exe
 F:\Locker\Files\Projects\CP II\VB.NET\Library\Book Rec\Book Rec\bin\Debug\Book Rec.pdb
 F:\Locker\Files\Projects\CP II\VB.NET\Library\Book Rec\Book Rec\bin\Debug\Book Rec.xml
-F:\Locker\Files\Projects\CP II\VB.NET\Library\Book Rec\Book Rec\obj\Debug\Book Rec.vbprojResolveAssemblyReference.cache
 F:\Locker\Files\Projects\CP II\VB.NET\Library\Book Rec\Book Rec\obj\Debug\WindowsApp1.frmBookRec.resources
 F:\Locker\Files\Projects\CP II\VB.NET\Library\Book Rec\Book Rec\obj\Debug\WindowsApp1.Resources.resources
 F:\Locker\Files\Projects\CP II\VB.NET\Library\Book Rec\Book Rec\obj\Debug\Book Rec.vbproj.GenerateResource.Cache
+F:\Locker\Files\Projects\CP II\VB.NET\Library\Book Rec\Book Rec\obj\Debug\Book Rec.exe
+F:\Locker\Files\Projects\CP II\VB.NET\Library\Book Rec\Book Rec\obj\Debug\Book Rec.xml
+F:\Locker\Files\Projects\CP II\VB.NET\Library\Book Rec\Book Rec\obj\Debug\Book Rec.pdb
